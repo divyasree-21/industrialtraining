@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.">
+        <title>Positions</title>
+        <style>
+            .fix{
+            height:80px;
+            width: 100px;
+            border:2px solid green;
+            background-color:limegreen;
+            float: right;
+            position: fixed;
+            top: 70px;
+            left: 1120px;
+            padding-top:20px;
+            }
+            .diva{
+                height:700px;
+                width:950px;
+                float:left;
+            }
+            .a{
+                height:380px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+            }
+            .b{
+                height:380px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+            }
+            .c{
+                height:380px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+            }
+            .d{
+                height:380px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+            }
+            .e{
+                height:270px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .f{
+                height:270px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .g{
+                height:270px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .h{
+                height:270px;
+                width:220px;
+                border:2px solid black;
+                background-color: ghostwhite;
+                float: left;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            .i{
+                height:305px;
+                width:203px;
+                border:1px solid black;
+                background-color: ghostwhite;
+                float:left;
+            }
+            .j{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                float: left;
+                position:static;
+            }
+            .k{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                float: left;
+                position:static;
+                padding-top:20px;
+            }
+            .l{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                float: left;
+                position:relative;
+                top: 20px;
+                left: 20px;
+                padding-top:20px;
+            }
+            .m{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                float:left;
+                position:relative;
+                left:101px;
+                bottom:102px;
+                padding-top:20px;
+            }
+            .n{
+                height:205px;
+                width:203px;
+                border:1px solid black;
+                background-color: ghostwhite;
+                float:left;
+                overflow: scroll;
+            }
+            .o{
+                height:100px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                display: flex;
+                position:sticky;
+                top:5px;
+                opacity: 0.8;
+                z-index: -1;
+                justify-content: center;
+                align-items: center;
+            }
+            .p{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                opacity: 0.8;
+            }
+            .z{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                opacity: 0.8;
+            }
+            .q{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                float:left;
+                position:sticky;
+                bottom: 10px;
+                padding-top:20px;
+            }
+            .r{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                float:left;
+                position:sticky;
+                padding-top:20px;
+            }
+            .s{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                float:left;
+                position:relative;
+                bottom: 101px;
+            }
+            .t{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                float:left;
+                left:102px;
+                bottom: 203px;
+                position:relative;
+            }
+            .u{
+                height:100px;
+                width: 100px;
+                border:1px solid blue;
+                background-color:lightblue;
+                float:left;
+                left:203px;
+                bottom:305px;
+                position:relative;
+            }
+            .v{
+                height:80px;
+                width: 100px;
+                border:1px solid green;
+                background-color:limegreen;
+                position:sticky;
+                display:flex;
+                right: 0;
+                opacity:0.8;
+                z-index: -1;
+                padding-top:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Position-Property in CSS</h1><hr></center>
+        <div class="fix"><center><h4>Fixed</h4></center></div>
+        <div class="diva">
+            <div class="a"><h4>position:&nbsp;&nbsp;&nbsp;static</h4>
+                <div class="i">
+                    <div class="j"></div>
+                    <div class="k"><center><h4>static</h4></center></div>
+                    <div class="j"></div>
+                </div>
+            </div>
+            <div class="b"><h4>position:&nbsp;&nbsp;&nbsp;relative</h4>
+                <div class="i">
+                    <div class="j"></div>
+                    <div class="l"><center><h4>relative</h4></center></div>
+                    <div class="j"></div>
+                </div>
+            </div>
+            <div class="c"><h4>position:&nbsp;&nbsp;&nbsp;absolute</h4>
+                <div class="i">
+                    <div class="j"></div>
+                    <div class="j"></div>
+                    <div class="m"><center><h4>absolute</h4></center></div>
+                </div>
+            </div>
+            <div class="d"><h4>position:&nbsp;&nbsp;&nbsp;fixed</h4>
+                <div class="i">
+                    <div class="j"></div>
+                    <div class="j"></div>
+                </div>
+            </div>
+            <div class="e"><h4>position:&nbsp;&nbsp;&nbsp;sticky(top)</h4>
+                <div class="n">
+                    <div class="o"><center><h4>sticy(top)</h4></center></div>
+                    <div class="p"></div>
+                    <div class="z"></div>
+                </div>
+            </div>
+            <div class="f"><h4>position:&nbsp;&nbsp;&nbsp;sticky(bottom)</h4>
+                <div class="n">
+                    <div class="p"></div>
+                    <div class="q"><center><h4>sticy(bottom)</h4></center></div>
+                    <div class="p"></div>
+                    <div class="p"></div>
+                </div>
+            </div>
+            <div class="g"><h4>position:&nbsp;&nbsp;&nbsp;sticky(left)</h4>
+                <div class="n">
+                    <div class="r"><center><h4>sticy(left)</h4></center></div>
+                    <div class="s"></div>
+                    <div class="t"></div>
+                    <div class="u"></div>
+                </div>
+            </div>
+            <div class="h"><h4>position:&nbsp;&nbsp;&nbsp;sticky(right)</h4>
+                <div class="n">
+                    <div class="r"></div>
+                    <div class="s"></div>
+                    <div class="t"></div>
+                    <div class="u"></div>
+                    <div class="v"><center><h4>sticy(right)</h4></center></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

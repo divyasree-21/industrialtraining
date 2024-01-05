@@ -1,0 +1,40 @@
+.external{
+    border: 2px;
+    background-color: powderblue;
+    font-size: 30px;
+}
+#main{
+    height: 200px;
+    width: 200px;
+    background-color: plum;
+}
+span{
+    color: magenta;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]{
+    color: goldenrod;
+}
+a[href]{
+    background-color: skyblue;
+    font-size: 25px;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color:darkslateblue;
+}
+a:hover{
+    font-size: 35px;
+    color: deeppink;
+}
+a:active{
+    color: brown;
+}

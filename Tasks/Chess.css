@@ -1,0 +1,12 @@
+.a{
+    height: 900px;
+    width: 900px;
+    background-color: beige;
+    padding-left:100px;
+    padding-top: 100px;
+    padding-right:100px;
+    padding-bottom:190px;
+}
+h1{
+    text-shadow:2px 2px 5px palevioletred,4px 4px 7px lightseagreen;
+} 

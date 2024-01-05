@@ -1,0 +1,117 @@
+{
+    margin:0px;
+    padding: 0px;
+}
+.parent
+{
+    width: 100%;
+    height: 100%;
+}
+.child1
+{
+    width:100%;
+    height:50%;
+    margin-top: 30px;
+    
+}
+.child2
+{
+    width: 100%;
+    height: 50%;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    
+}
+.a{
+    width: 280px;
+    height: 100%;
+    margin-left: 260px;
+    /* margin-top: 30px; */
+    background-color: white;
+    float: left;
+    padding-left: 20px;
+   
+}
+.a1{
+    width: 280px;
+    height: 100%;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    background-color: rgb(205, 162, 245);
+    float: left;
+    padding-left: 20px;
+}
+.a2{
+    width: 280px;
+    height: 100%;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    background-color: rgb(247, 221, 188);
+    float: left;
+    padding-left: 20px;
+}
+.b{
+    width: 280px;
+    height: 100%;
+    margin-left: 260px;
+    /* margin-top: 30px; */
+    background-color: rgb(239, 165, 239);
+    float: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.b1{
+    width: 280px;
+    height: 100%;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    background-color: rgb(205, 162, 245);
+    float: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.b2{
+    width: 280px;
+    height: 100%;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    background-color:rgb(239, 165, 239);
+    float: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+h1
+{
+    margin-top: 30px;
+}
+.p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 32px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+    border-color: blueviolet;
+}
+.img{
+    margin-top:20px;
+}
+.h3
+{
+    text-transform: uppercase;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+span
+{
+    /* margin-top: 15px; */
+    position: relative;
+    bottom: 9px;
+    left: 3px;
+}
+.d{
+    margin-top: 15px;
+}

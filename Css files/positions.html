@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.">
+        <title>Positions</title>
+        <style>
+            .a{
+                height: 400px;
+                width: 300px;
+                border: 3px solid brown;
+                background-color: lavender;
+                float: left;
+                position: static;
+            }
+            .b{
+                height: 400px;
+                width: 300px;
+                border: 3px solid green;
+                background-color: lavender;
+                float: left;
+                position: relative;
+                top:80px;
+                left:30px;
+            }
+            .c{
+                height: 400px;
+                width: 300px;
+                border: 3px solid red;
+                background-color: lavender;
+                float: left;
+                position: absolute;
+                top: 160px;
+                left: 80px;
+            }
+            .d{
+                height: 200px;
+                width: 200px;
+                border: 3px solid deepskyblue;
+                background-color: lavender;
+                float: left;
+                position: fixed;
+                bottom: 0px;
+                right: 0px;
+            }
+            .e{
+                height: 50px;
+                width: 100%;
+                background-color: bisque;
+                border: 2px solid deeppink;
+                text-align: center;
+                font-size: 30px;
+                position: sticky;
+            }
+            .parent{
+                height: 600px;
+                width: 500px;
+                border: 2px dashed black;
+                float: left;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Position-Property in CSS</h1><hr></center>
+        <div class="a"><h2>Static</h2></div>
+        <div class="b"><h2>Relative</h2></div>
+        <div class="parent">
+            <div class="c"><h2>Absolute</h2></div>
+        </div>
+        <div class="d"><h2>Fixed</h2></div>
+        <p>A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. 
+        (In other words, it's anything except static.) A relatively positioned element is an element whose computed position 
+        value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right 
+        properties specify the horizontal offset.An absolutely positioned element is an element whose computed position value
+        is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 
+        block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they 
+        are added to the offset. The element establishes a new block formatting context (BFC) for its contents.A stickily positioned 
+        element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block
+        crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls 
+        within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. 
+        (In other words, it's anything except static.) A relatively positioned element is an element whose computed position 
+        value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right 
+        properties specify the horizontal offset.An absolutely positioned element is an element whose computed position value
+        is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 
+        block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they 
+        are added to the offset. The element establishes a new block formatting context (BFC) for its contents.A stickily positioned 
+        element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block
+        crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls 
+        within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. 
+        (In other words, it's anything except static.) A relatively positioned element is an element whose computed position 
+        value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right 
+        properties specify the horizontal offset.An absolutely positioned element is an element whose computed position value
+        is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 
+        block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they 
+        are added to the offset. The element establishes a new block formatting context (BFC) for its contents.A stickily positioned 
+        element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block
+        crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls 
+        within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.
+        <div class="e">Sticky-Position</div>
+        A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. 
+        (In other words, it's anything except static.) A relatively positioned element is an element whose computed position 
+        value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right 
+        properties specify the horizontal offset.An absolutely positioned element is an element whose computed position value
+        is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 
+        block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they 
+        are added to the offset. The element establishes a new block formatting context (BFC) for its contents.A stickily positioned 
+        element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block
+        crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls 
+        within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. 
+        (In other words, it's anything except static.) A relatively positioned element is an element whose computed position 
+        value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right 
+        properties specify the horizontal offset.An absolutely positioned element is an element whose computed position value
+        is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing 
+        block. (The containing block is the ancestor relative to which the element is positioned.) If the element has margins, they 
+        are added to the offset. The element establishes a new block formatting context (BFC) for its contents.A stickily positioned 
+        element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block
+        crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls 
+        within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.</p>
+    </body>
+</html>

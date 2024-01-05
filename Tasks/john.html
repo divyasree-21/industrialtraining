@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.">
+        <title>Task</title>
+        <style>
+           .a{
+            background-color: ghostwhite;
+            padding:16px 32px;
+            display: block;
+            text-align: center;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+           }
+           .b{
+            height: 560px;
+            width:360px;
+            background-color: azure;
+            float:left;
+            margin-left: 100px;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+           }
+           img{
+            border-radius: 50%;
+           }
+           .c{
+            height: 270px;
+            width:810px;
+            background-color: azure;
+            float: left;
+            margin-left: 50px;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 20px;
+           }
+           .d{
+            height: 270px;
+            width: 830px;
+            background-color:azure;
+            padding-top: 30px;
+            padding-left: 30px;
+            margin-top: 30px;
+            margin-left: 50px;
+            float: left;
+            }    
+        </style>
+    </head>
+    <body bgcolor="grey">
+        <div class="a">
+            <center>
+            <button type="button"onclick style="background-color: lime;">Preview</button>
+            <button type="button"onclick style="background-color: powderblue;">HTML</button>
+            <button type="button"onclick style="background-color: powderblue;">CSS</button>
+            <button type="button"onclick style="background-color: powderblue;">Download</button>
+            <select style="background-color: red;border: 5px;">
+                <option>Action</option>
+            </select>
+            </center>
+        </div>
+        <br>
+        <div class="b">
+            <center><img src="../Images/face.jpg" height="100px" width=100px"></center>
+            <center><h3>John Doe</h3><p>Full Stack Developer</p><p>Bay Area,San Francisco, CA</p>
+            <button type="button"onclick style="background-color: aqua;">Follow</button>
+            <button type="button"onclick">Message!</button>
+            <hr>
+            <br>
+            </center>
+            <img src="../Images/www.jpg" height="30px" width="30px" alt"">
+            <b>Website</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://bootdey.com    
+            <hr>
+            <img src="../Images/github.jpg" height="30px" width="30px" alt"">
+            <b>Github</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bootdey
+            <hr>
+            <img src="../Images/twitter.png" height="30px" width="30px" alt"">
+            <b>Twitter</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@bootdey
+            <hr>
+            <img src="../Images/insta.jpg" height="30px" width="30px" alt"">
+            <b>Instagram</b>
+                    <td class="...">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bootdey</td>
+                </tr>    
+            </table>
+            <table>
+                <hr>
+            </table>
+            <table>
+                <tr>
+                    <td><img src="../Images/facebook.jpg" height="30px" width="30px" alt""></td>
+                    <td>Facebook</td>
+                    <td class="...">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bootdey</td>
+                </tr>    
+            </table>
+        </div>
+        <div class="c">
+            <b>Full Name</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="fname"></label>
+            <input type="text" id="fname" name="fname" value="John Doe" size="95px"><br>
+            <br>
+            <b>Email</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email"></label>
+            <input type="email" id="email" value="John@example.com" size="95px" ><br>
+            <br>
+            <label><b>Mobile</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <input type="tel" value="(239)816-9029" size="95px"><br>
+            <br>
+            <label><b>Phone</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;</label>
+            <input type="tel" value="(320)380-4539" maxlength="10"><br>
+            <br>
+            <label><b>Address</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
+            <input type="text" value="Bay Area,San Francisco,CA" size="95px"><br>
+            <br>
+            <center><button type="button"onclick style="background-color: aqua;">Save Changes</button></center>
+        </div>
+        <div class="d">
+            <h2>Project Status</h2>
+            <label for="file">Web Design:</label><br>
+            <progress id="file" value="75" max="200"></progress><br>
+            <label for="file">Website Markup:</label><br>
+            <progress id="file" value="70" max="100"></progress><br>
+            <label for="file">OnePage:</label><br>
+            <progress id="file" value="90" max="100" background-color:green></progress><br>
+            <label for="file">MobileTemplate:</label><br>
+            <progress id="file" value="50" max="100"background-color:yellow></progress><br>
+            <label for="file">BackendAPI:</label><br>
+            <progress id="file" value="60" max="100"background-color:skyblue></progress><br>
+        </div>
+    </body>
+</html>
